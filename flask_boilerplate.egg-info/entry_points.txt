@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    flask_boilerplate=flask_boilerplate:flask_boilerplate
+    
