@@ -57,3 +57,4 @@ if __name__ == '__main__':
         f.close()
 
     print("App Successfully Created")
+    os.system(f'python3 {file_name}.py')
