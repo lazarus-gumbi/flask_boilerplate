@@ -40,21 +40,21 @@ if __name__ == '__main__':
   </body>
 </html>
     '''
-
-    with open(file_name + '.py', 'w') as f:
+    os.mkdir(f'./{file_name}')
+    with open(f'./{file_name}/{file_name}.py', 'w') as f:
         f.writelines(boiler_plate)
         f.close()
 
-    os.mkdir(f'./{templates}')
-    os.mkdir(f'./{static}')
+    os.mkdir(f'./{file_name}/{templates}')
+    os.mkdir(f'./{file_name}/{static}')
 
-    with open('./templates/index.html', 'w') as f:
+    with open(f'./{file_name}/templates/index.html', 'w') as f:
         f.writelines(dev_info)
         f.close()
 
-    with open('./static/styles.css', 'w') as f:
+    with open(f'./{file_name}/static/styles.css', 'w') as f:
         f.writelines(dev_info)
         f.close()
 
     print("App Successfully Created")
-    os.system(f'python3 {file_name}.py')
+    os.system(f'python3 {file_name}/{file_name}.py')

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0d7c0b-3e26-42be-9d14-3344977c8a7c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/flask_boilerplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_boilerplate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/bruce_wayne/Documents/flask_boilerplate"
+    "last_opened_file_path": "/home/bruce_wayne/Documents/Selen tut"
   }
 }]]></component>
   <component name="RunManager">
@@ -66,5 +66,16 @@
       <updated>1658429665273</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
